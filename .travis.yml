@@ -1,6 +1,6 @@
 language: java
 jdk:
-  - openjdk11  # oppure la versione di JDK che usi nel tuo progetto
+  - openjdk24  # oppure la versione di JDK che usi nel tuo progetto
 install: true # opzionale, ma utile per installare dipendenze
 script:
   - mvn clean install # comando per eseguire il build del progetto
